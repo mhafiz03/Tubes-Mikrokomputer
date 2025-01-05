@@ -3,3 +3,4 @@ mediapipe
 scikit-learn
 qt-material
 face-recognition
+PyQt6

@@ -189,8 +189,7 @@ class Widget(QWidget):
         
         self.timer = QTimer(self)
         self.timer.timeout.connect(self.update_frame)
-
-        # self.camera = cv2.VideoCapture(0)
+        
         self.camera = cv2.VideoCapture('http://raspberrypi.local:8000/stream.mjpg')
         self.camera_running = True
         self.timer.start()
